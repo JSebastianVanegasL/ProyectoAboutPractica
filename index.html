@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title> Presentacion </title>
+</head>
+<body>
+  <header>
+    <nav class="container1">
+      <ul>
+        <li class="Abautme"><a href="#Aboutme">About Me</a></li>
+        <li class="Tecnologiasf"><a href="#Tecnologiasf">Tecnologias Favoritas</a></li>
+        <li class="Misactividades"><a href="#Misactividades">Mis Actividades Favoritas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <seccion id="Aboutme">
+    <article id="foto">
+      <img src="./styles/imagenes/imagen personal.jpg" alt="foto">
+    </article>
+    <article id="descrip">
+    <h2>Juan Sebastian Vanegas Leon</h2>
+    <p> Tengo 29 años de edad, soy Ingeniero Mecatrónico, graduado de la Universidad 
+      Piloto de Colombia, escogi esta carrera porque me gusta todo lo relacionado con la tecnologia, adicionalmente me gusta la musica, los videojuegos y el anime. Uno de mis grandes sueños es viajar por todo el mundo para aprender, conocer y adquirir
+      mas experiencia a lo largo de mis viajes </p>
+    </article>
+  </seccion>
+
+
+  <section id="Tecnologiasf">
+   
+    <h3>Tecnologias Favoritas</h3>
+    
+    <article id="tarjetas">
+    <div class="container">
+      <div class="box">
+        <div class="imgBx">
+        <img src="./styles/imagenes/logo-html.png" alt="HTML Logo">
+        </div>
+          <div class="content">
+            <div>
+              <h5>HTML</h5>
+              <p>Es un lenguaje de marcado que posibilita definir la estructura de nuestro documento mediante etiquetas. Este lenguaje ofrece una gran adaptabilidad, una estructuración lógica y es fácil de interpretar tanto por humanos como por máquinas.</p>
+            </div>
+          </div>     
+      </div>
+      <div class="box">
+        <div class="imgBx">
+        <img src="./styles/imagenes/logo-css.png" alt="CSS Logo">
+        </div>
+          <div class="content">
+            <div>
+              <h5>CSS</h5>
+              <p>Son las siglas de “Cascading Style Sheets” (hojas de estilo en cascada). CSS es un lenguaje para la composición y estructuración de páginas web (HTML o XML). Este lenguaje contiene elementos de codificación y se compone de estas “Cascading Style Sheets” que también se llaman archivos CSS</p>
+            </div>
+          </div>  
+      </div>
+      <div class="box">
+        <div class="imgBx">
+        <img src="./styles/imagenes/logo-js.png" alt="Javascript Logo">
+        </div>
+          <div class="content">
+            <div>
+              <h5>Javascript</h5>
+              <p>Es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web</p>
+            </div>
+          </div>
+      </div>
+      <div class="box">
+        <div class="imgBx">
+        <img src="./styles/imagenes/images.jpeg" alt="C++ Logo">
+      </div>
+      <div class="content">
+        <div class="content">
+          <div>
+            <h5>C++</h5>
+            <p>C++ es un lenguaje de programación diseñado en 1979 por Bjarne Stroustrup. La intención de su creación fue extender al lenguaje de programación C y añadir mecanismos que permiten la manipulación de objetos. En ese sentido, desde el punto de vista de los lenguajes orientados a objetos, C++ es un lenguaje híbrido.</p>
+          </div>
+        </div>
+      </div>
+      
+  </article>
+  </section>
+  <h4>Mis actividaes Favoritas</h4>
+  <section id="Misactividades">
+
+    <form>
+      
+      <fieldset>
+        <legend>Crear Actividad</legend>
+          <label for="title">Título:</label>
+          <input type="text" id="title" name="titulo" required placeholder="Crea un titulo..">
+          <label for="imgUrl">URL de la Imagen:</label>
+          <input type="url" id="imgUrl" name="url-imagen" placeholder="url de la imagen" required>
+          <label for="descripcion">Descripción:</label>
+          <textarea  name="descripcion" id="descripcion" placeholder="Describe la Actividad" cols="30" rows="4"  ></textarea>
+          <button id="button">Agregar Actividad</button>
+      </fieldset>
+    
+  </form>
+  <div id="conte">
+    
+  </div>
+  </section>
+
+<footer>&COPY;2024 - Mi Presentacion </footer>
+
+
+
+<script src="./scripts/index.js">
+
+</script>
+  
+</body>
+</html>
